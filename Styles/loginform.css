@@ -1,0 +1,146 @@
+::-webkit-scrollbar {
+  width: 10px;
+  
+}
+
+
+::-webkit-scrollbar-track {
+  background: #a5a5a5;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #7e7d7d;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #494949;
+}
+
+
+
+
+.loginbody {
+    background-image: url(../Pictures/triangular.png);
+    margin: 0;
+}
+
+
+.logintext {
+  text-align: center;
+  font-family: Josefin Sans;
+  font-weight: bold;
+  font-size: 300%;
+  margin-top: 5%;
+}
+
+
+.loginform {
+  margin-left: 40%;
+  margin-top: 7%;
+}
+
+.input {
+  width: 35%;
+  height: 20px;
+  border-radius: 5px;
+  border: solid;
+  border-width: 2px;
+  background-color: lightgray;
+
+}
+
+.display {
+  font-family: Raleway;
+  font-size: medium;
+}
+
+.loginbutton {
+  background-color: rgb(85, 85, 85);
+  color: white;
+  height: 45px;
+  width: 140px;
+  border-radius: 10px;
+  border: solid black; 
+  font-weight: bold;
+  font-family: Arial;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 9%;
+  margin-top: 2%;
+  transition: background-color 0.30s,
+  color 0.30s,
+  box-shadow 0.30s;
+  display: inline-block;
+  
+   
+}
+.loginbutton:hover {
+background-color: white;
+color:  rgb(85, 85, 85);
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+      
+}
+
+.loginbutton:active {
+background-color:  rgb(85, 85, 85) ;
+
+}
+
+.redirect {
+  font-family: Raleway;
+  text-align: center;
+  color: rgb(85, 85, 85);
+}
+
+.top-nav {
+  height: 60px;
+  background-color: rgb(100, 100, 100);
+  padding-top: 10px;
+
+}
+
+.top-nav a {
+  float: left;
+  line-height: 25px;
+  font-family: Raleway;
+  text-align: center;
+  font-size: 30px;
+  padding: 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  
+  
+}
+
+.top-nav a.intro {
+  font-weight: bold;
+  padding-left: 5px;
+  margin-left: 5px;
+  color: black;
+}
+
+
+.top-nav a.intro:hover {
+  text-decoration: underline;
+}
+
+.links {
+  float: right;
+}
+
+.links a {
+  color: black;
+  border-radius: 5px;
+  transition: 0.25s background-color;
+  
+
+}
+
+.links a:hover {
+  background-color: rgb(165, 165, 165);
+  transition: 0.25s background-color;
+}
+
+
